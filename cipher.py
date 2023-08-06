@@ -34,5 +34,8 @@ new_message = ''
 for char in message:
     if char in sub_dict:
         char = sub_dict[char]
-    new_message += char
+        new_message += char
+    else:
+        new_message += char
+    
 print(new_message)
