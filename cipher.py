@@ -37,5 +37,5 @@ for char in message:
         new_message += char
     else:
         new_message += char
-    
+   
 print("The encripted sentence is:" + new_message)
